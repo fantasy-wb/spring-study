@@ -40,7 +40,7 @@ public class WechatListener2 implements SmartApplicationListener {
     }
  
 //    @Override
-//    @Async
+//    @async
 //    public void onApplicationEvent(OrderCreateEvent event) {
 //
 //        //发送微信

@@ -40,7 +40,7 @@ public class SmsListener2 implements SmartApplicationListener {
     }
  
 //    @Override
-//    @Async
+//    @async
 //    public void onApplicationEvent(OrderCreateEvent event) {
 //
 //        //发送短信
