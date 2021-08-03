@@ -29,7 +29,7 @@ public class MyScheduled {
 //        return taskScheduler;
 //    }
 
-    @Scheduled(cron = "0/5 * * * * ?")
+//    @Scheduled(cron = "0/5 * * * * ?")
     public void execute1(){
         String curName = Thread.currentThread().getName() ;
         System.out.println("当前时间:"+LocalDateTime.now()+"  任务execute1对应的线程名: "+curName);
@@ -41,7 +41,7 @@ public class MyScheduled {
 
     }
 
-    @Scheduled(cron = "0/5 * * * * ?")
+//    @Scheduled(cron = "0/5 * * * * ?")
     public void execute2(){
 
         String curName = Thread.currentThread().getName() ;
